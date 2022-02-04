@@ -130,7 +130,6 @@ const createComnt = (comntTime,position, text, parentDiv=null) =>{
         comntSection.appendChild(newComnt);
         text = "";
         write = false;
-        setData(comntTime,position,textarea.value,parentDiv);
     }
     // else if(position==="R" && text==""){
     else if(position==="R"){
